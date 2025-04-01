@@ -1,0 +1,2 @@
+﻿CREATE USER [Kamran.Ahmed@wsp.com] FOR EXTERNAL PROVIDER;
+
