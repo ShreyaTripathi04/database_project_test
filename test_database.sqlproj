@@ -70,6 +70,12 @@
     <Build Include="Security\Shreya.Tripathi%40wsp.com.sql" />
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\GetHighSalaryEmployees.sql" />
-    <Build Include="Security\https___dccld600sql01atp.blob.core.windows.net_sqldbauditlogs.sql" />
+    <Build Include="dbo\Tables\TestTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Script.PreDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Security\MasterKey.sql" />
   </ItemGroup>
 </Project>
