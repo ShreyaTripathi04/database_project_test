@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{692f0008-67d6-459f-afd2-bedea0fd7dfb}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -71,11 +71,5 @@
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="dbo\Stored Procedures\GetHighSalaryEmployees.sql" />
     <Build Include="dbo\Tables\TestTable.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PreDeploy Include="Script.PreDeployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PostDeploy Include="Security\MasterKey.sql" />
   </ItemGroup>
 </Project>
